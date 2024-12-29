@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const User = require('./models/user');
 const authRoutes = require('./routes/authRoutes');
+const friendRoutes = require('./routes/friendRoutes');
 const authenticateToken = require('./middlewares/auth');
 
 //env file configuration
@@ -14,6 +15,7 @@ app.use(express.json());
 
 // Routes
 app.use('/api/auth', authRoutes);
+app.use('/api/friends', friendRoutes);
 
 // Example of a protected route
 app.get('/api/protected', authenticateToken, (req, res) => {
