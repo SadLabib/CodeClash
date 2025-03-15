@@ -21,6 +21,14 @@ const User = sequelize.define('User', {
   password: { 
     type: DataTypes.STRING, 
     allowNull: false 
+  },
+  googleId: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
+  githubId: {
+    type: DataTypes.STRING,
+    allowNull: true
   }
 }, {
   tableName: 'Users',
