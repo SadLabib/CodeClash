@@ -1,10 +1,10 @@
-# CodeClash - Team Tracker API
+# CodeClash - Problem Solving Dashboard API
 
 
 
 ## Project Overview
 
-**CodeClash** is a comprehensive platform designed for competitive programmers to track and manage their problem-solving journey. It provides a centralized dashboard for tracking coding problems, managing deadlines, and measuring progress over time. Additionally, it offers a social environment where coders can connect, share experiences, and challenge each other.
+**CodeClash** is a comprehensive platform designed for competitive programmers / problem solvers to track and manage their problem-solving journey. It provides a centralized dashboard for tracking coding problems, managing deadlines, and measuring progress over time. Additionally, it offers a social environment where coders can connect, share experiences, and challenge each other.
 
 ## Features
 
@@ -31,7 +31,6 @@
 - Create, read, update, and delete blog posts
 - Comment functionality on blog posts
 - Nested comments (replies) with one level of depth
-- User-specific content control (edit/delete restrictions)
 
 ### Statistics and Reporting
 - Generate statistical reports on problem-solving patterns
